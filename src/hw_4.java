@@ -13,13 +13,15 @@ public class hw_4 {
         if (clientOS == 0) {
             if (clientDeviceYear >= 2015) {
                 System.out.println("Установите версию приложения для iOS по ссылке");
-            } else if (clientDeviceYear < 2015)
+            } else {
                 System.out.println("Установите облегченную версию приложения для iOS по ссылке");
+            }
         } else if (clientOS == 1) {
             if (clientDeviceYear >= 2015) {
                 System.out.println("Установите версию приложения для Android по ссылке");
-            } else if (clientDeviceYear < 2015)
+            } else {
                 System.out.println("Установите облегченную версию приложения для Android по ссылке");
+            }
         }
 
         // task 3
