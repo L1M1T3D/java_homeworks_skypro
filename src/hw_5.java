@@ -11,7 +11,7 @@ public class hw_5 {
         }
 
         // task 3
-        for (int i = 0; i < 18; i++) {
+        for (int i = 2; i < 18; i = i + 2) {
             System.out.println(i);
         }
 
@@ -50,7 +50,7 @@ public class hw_5 {
 
         // task 10
         for (int i = 1; i <= 10; i++) {
-            System.out.println(i * 2);
+            System.out.println("2*" + i + "=" + i * 2);
         }
     }
 }
